@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>চায়ের আড্ডা | Chayer Adda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 id="brand">চায়ের আড্ডা</h1>
+  <p class="slogan">Smooth. Great Taste ☕🍹🫖</p>
+  <div class="lang-toggle">
+    <button id="bn-btn">বাংলা</button>
+    <button id="en-btn">English</button>
+  </div>
+</header>
+
+<section class="section" id="menu">
+  <!-- Menu items populated by JS -->
+</section>
+
+<footer>
+  <p>Instagram: @chayer.adda</p>
+  <div class="qr">QR Code Here</div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "চায়ের আড্ডা",
+  "short_name": "Chayer Adda",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f4ef",
+  "theme_color": "#6b4f2c"
+}
